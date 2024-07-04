@@ -3,9 +3,9 @@ const http = require("http");
 const express = require('express');
 const socketio = require('socket.io');
 var Filter = require('bad-words')
-const { generateMessage, generateLocationMessage } = require('./utils/messages')
+const { generateMessage, generateLocationMessage } = require('./src/utils/messages')
 
-const { addUser , removeUser , getUser ,getUsersInRoom} = require('./utils/users')
+const { addUser , removeUser , getUser ,getUsersInRoom} = require('./src/utils/users')
 
 const app = express();
 const server = http.createServer(app);
@@ -17,7 +17,7 @@ const io = socketio(server,{
 });
 
 
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, './public')));
 
 io.on('connection', (socket) => {
   console.log('connected to websocket .. ');
