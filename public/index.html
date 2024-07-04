@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Socket.io Client</title>
-  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
-</head>
+  <head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/favicon.png" />
+  </head>
+
 <body>
-  <h2>Chat App</h2>
-  <!-- <form action=""></form> -->
-  <script src="../js/chat.js">
-  </script>
+  <div class="centered-form">
+    <div class="centered-form__box">
+      <h1>Join</h1>
+      <form action="chat.html">
+        <label for="">Display name</label>
+        <input type="text" name="username" placeholder="Display name" required>
+        <label for="">Room</label>
+        <input type="text" name="room" placeholder="Room" required>
+        <button>Join</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
