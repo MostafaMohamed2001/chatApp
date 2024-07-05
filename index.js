@@ -83,7 +83,10 @@ io.on('connection', (socket) => {
   })
  
 });
-
+// To let server runing not shutdown it by render
+app.get('/corn', (req, res) => {
+  res.send('Server is running .. ');
+})
 server.listen(8000, () => {
   console.log('Server is running on port 8000');
 });
