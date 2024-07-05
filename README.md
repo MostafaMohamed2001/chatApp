@@ -35,7 +35,7 @@
 
 
 
-### i wanna to talk here what is socket io because some developer afraid from try it thinking it difficult.
+### i wanna to talk here what is socket io because some developers troubled from try it thinking it difficult.
 
 - Socket.IO is a library that enables real-time, bidirectional communication between clients and servers
 - It simplifies the implementation of WebSockets and provides additional features like automatic reconnection
