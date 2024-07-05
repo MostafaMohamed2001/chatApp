@@ -2,6 +2,8 @@ const path = require('path');
 const http = require("http");
 const express = require('express');
 const socketio = require('socket.io');
+const cors = require('cors');
+
 var Filter = require('bad-words')
 const { generateMessage, generateLocationMessage } = require('./src/utils/messages')
 
@@ -9,6 +11,8 @@ const { addUser , removeUser , getUser ,getUsersInRoom} = require('./src/utils/u
 
 const app = express();
 const server = http.createServer(app);
+app.use(cors());
+
 const io = socketio(server,{
   cors: {
     origin: "*",
