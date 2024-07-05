@@ -1,4 +1,4 @@
-const socket = io('https://chat-app-xoyk.vercel.app/');
+const socket = io();
 
 // Elements
 const $form = document.getElementById("form");
