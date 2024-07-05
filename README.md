@@ -34,3 +34,15 @@
 4. No Enviroment so installation so easy
 
 
+
+### i wanna to talk here what is socket io because some developer afraid from try it thinking it difficult.
+
+- Socket.IO is a library that enables real-time, bidirectional communication between clients and servers
+- It simplifies the implementation of WebSockets and provides additional features like automatic reconnection
+- multiplexing, and broadcasting events. It's easy to use and integrates well with both client-side JavaScript and server-side Node.js
+- making it a powerful tool for building real-time applications like chat apps, live notifications
+-  and collaborative tools. Despite initial impressions, it is straightforward to implement and offers extensive documentation and community support.
+
+# finaly socket io making amazing documentaion .
+
+### https://socket.io/get-started/chat/
