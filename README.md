@@ -19,7 +19,7 @@
 ### Installation 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/MostafaMohamed2001/ecomercee_
+    git clone https://github.com/MostafaMohamed2001/chatApp
     ```
 2. Initialize package.json (if not present):
     ```bash
